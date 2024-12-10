@@ -1,3 +1,47 @@
 <resources>
     <string name="app_name">PetsRecycler</string>
+    <string-array name="pets_names">
+        <item>Pepito</item>
+        <item>Rex</item>
+        <item>Luna</item>
+        <item>Simba</item>
+        <item>Chloe</item>
+        <item>Rocky</item>
+        <item>Max</item>
+        <item>Daisy</item>
+        <item>Oscar</item>
+        <item>Oliver</item>
+        <item>Zoe</item>
+        <item>Charlie</item>
+    </string-array>
+
+    <string-array name="pets_breed">
+        <item>Perro - Buldog</item>
+        <item>Perro - Pastor Alemán</item>
+        <item>Gato - Sphynx</item>
+        <item>Tortuga - caja oriental</item>
+        <item>Perro - Bulldog Francés</item>
+        <item>Perro - Pitbull</item>
+        <item>Perro - Beagle</item>
+        <item>Perro - Shih Tzu</item>
+        <item>Gato - Gato Persa</item>
+        <item>Gato - Gato Maine Coon</item>
+        <item>Conejo - Holland Lop</item>
+        <item>Perro - Golden Retriever</item>
+    </string-array>
+
+    <string-array name="pets_description">
+        <item>Pepito es un perro juguetón que adora correr por el parque.</item>
+        <item>Rex es un Pastor Alemán muy leal, siempre vigilante y protector de su familia.</item>
+        <item>Luna es una gata traviesa que disfruta dormir en los lugares más soleados de la casa.</item>
+        <item>Simba es una tortuga tranquila y sabia, siempre moviéndose con calma</item>
+        <item>Chloe es una Bulldog Francés simpática y tranquila</item>
+        <item>Rocky es un Pitbull lleno de energía, conocido por su valentía y su corazón tierno.</item>
+        <item>Max es un Beagle curioso y siempre está listo para una aventura al aire libre.</item>
+        <item>Daisy es una Shih Tzu dulce y pequeña, ideal para abrazos y caricias.</item>
+        <item>Oscar es un Gato Persa con un pelaje largo y suave, siempre con una mirada elegante.</item>
+        <item>Oliver es un Gato Maine Coon muy grande y amigable, le encanta jugar con los niños.</item>
+        <item>Zoe es una coneja activa que disfruta de correr por el jardín y masticar zanahorias.</item>
+        <item>Charlie es un Golden Retriever amoroso que adora nadar en el agua y jugar con su pelota.</item>
+    </string-array>
 </resources>

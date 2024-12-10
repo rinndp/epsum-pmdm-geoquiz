@@ -3,16 +3,8 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
-
-    <androidx.constraintlayout.widget.Guideline
-        android:id="@+id/guideline"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
-        app:layout_constraintGuide_percent="0.557"
-
-        />
+    android:layout_marginBottom="10dp"
+    android:layout_height="wrap_content">
 
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
@@ -20,8 +12,12 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
-
+        app:layout_constraintTop_toTopOf="parent"
+        android:elevation="10dp"
+        app:cardCornerRadius="20dp"
+        android:layout_margin="5dp"
+        android:backgroundTint="@color/md_theme_onError"
+        >
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -35,44 +31,50 @@
                 android:layout_gravity="center"
                 android:layout_margin="10dp"
                 android:layout_weight="1"
-                tools:srcCompat="@drawable/baseline_pets_24" />
+                android:src="@drawable/baseline_pets_24" />
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
                 android:orientation="vertical">
-
-                <TextView
-                    android:id="@+id/petsName"
-                    android:layout_width="match_parent"
-                    android:layout_height="42dp"
-                    android:layout_margin="5dp"
-                    android:text="Nombre mascota" />
 
                 <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="19dp"
                     android:orientation="horizontal">
 
                     <TextView
-                        android:id="@+id/petsDescription"
-                        android:layout_width="334dp"
-
+                        android:id="@+id/petsName"
+                        android:layout_width="292dp"
                         android:layout_height="match_parent"
                         android:layout_margin="5dp"
                         android:layout_weight="1"
-                        android:text="Descripción mascota" />
+                        android:textSize="17sp"
+                        android:textStyle="bold"
+                        android:text="Nombre mascota" />
 
                     <TextView
-                        android:id="@+id/petsInfo"
+                        android:id="@+id/petsBreed"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:layout_weight="1"
                         android:layout_margin="5dp"
-                        android:text="Datos mascota" />
+                        android:layout_weight="1"
+                        android:text="Raza mascota"
+                        android:textAlignment="textEnd" />
 
                 </LinearLayout>
+
+                <TextView
+                    android:id="@+id/petsDescription"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:layout_margin="5dp"
+                    android:text="Descripción mascota" />
+
             </LinearLayout>
         </LinearLayout>
     </androidx.cardview.widget.CardView>
