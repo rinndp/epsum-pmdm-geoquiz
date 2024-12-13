@@ -1,47 +1,72 @@
 <resources>
-    <string name="app_name">PetsRecycler</string>
-    <string-array name="pets_names">
-        <item>Pepito</item>
-        <item>Rex</item>
-        <item>Luna</item>
-        <item>Simba</item>
-        <item>Chloe</item>
-        <item>Rocky</item>
-        <item>Max</item>
-        <item>Daisy</item>
-        <item>Oscar</item>
-        <item>Oliver</item>
-        <item>Zoe</item>
-        <item>Charlie</item>
+    <string name="app_name">GeoQuiz</string>
+    <string-array name="country_names">
+        <item>Brasil</item>
+        <item>China</item>
+        <item>Francia</item>
+        <item>Argentina</item>
+        <item>Colombia</item>
+        <item>Perú</item>
+        <item>Paraguay</item>
+        <item>Lituania</item>
+        <item>Bélgica</item>
+        <item>Rusia</item>
+        <item>Finlandia</item>
+        <item>Japón</item>
+        <item>Bulgaria</item>
+        <item>Australia</item>
+        <item>Indonesia</item>
+    </string-array>
+    <string-array name="country_capitals">
+        <item>Brasília</item>
+        <item>Beijing</item>
+        <item>París</item>
+        <item>Buenos Aires</item>
+        <item>Bogotá</item>
+        <item>Lima</item>
+        <item>Asunción</item>
+        <item>Vilna (Vilnius)</item>
+        <item>Bruselas</item>
+        <item>Moscú</item>
+        <item>Helsinki</item>
+        <item>Tokio</item>
+        <item>Sofía</item>
+        <item>Canberra</item>
+        <item>Yakarta</item>
+    </string-array>
+    <string-array name="country_description">
+        <item>Un país vibrante en América del Sur, famoso por su carnaval, fútbol y la selva amazónica.</item>
+        <item>Una nación de gran historia y cultura, conocida por su Gran Muralla, la Ciudad Prohibida y su impacto global.</item>
+        <item>Elegante y cultural, famosa por la Torre Eiffel, la gastronomía y el arte, además de ser un referente en moda.</item>
+        <item>Tierra de tango, vinos y paisajes variados, desde las Pampas hasta la Patagonia.</item>
+        <item>Un país caribeño con una rica cultura, café, música salsa y la calidez de su gente.</item>
+        <item>Cuna de la civilización Inca, hogar de Machu Picchu y una gastronomía reconocida mundialmente.</item>
+        <item>Un país pequeño en el corazón de América del Sur, conocido por su música guaraní y la tranquilidad de su gente.</item>
+        <item>Un país báltico con una historia profunda, famosa por su arquitectura medieval y hermosos paisajes naturales.</item>
+        <item>Reconocida por su cerveza, chocolates y una mezcla de culturas flamenca y valona, además de su rica historia política.</item>
+        <item>La mayor nación del mundo, con una vastedad de paisajes, desde la taiga hasta la tundra, y una cultura literaria y artística impresionante.</item>
+        <item>Conocida por sus paisajes nevados, la cultura del sauna y ser el hogar de Santa Claus.</item>
+        <item>Una mezcla de tradición y tecnología avanzada, famosa por el monte Fuji, el sushi y la cultura pop como el anime.</item>
+        <item>Es conocida por su variada geografía, que incluye montañas, costas y valles</item>
+        <item>Una isla continente famosa por su fauna única, las playas y la Gran Barrera de Coral.</item>
+        <item>Un archipiélago extenso con una gran diversidad cultural, sus templos, playas y volcanes activos.</item>
     </string-array>
 
-    <string-array name="pets_breed">
-        <item>Perro - Buldog</item>
-        <item>Perro - Pastor Alemán</item>
-        <item>Gato - Sphynx</item>
-        <item>Tortuga - caja oriental</item>
-        <item>Perro - Bulldog Francés</item>
-        <item>Perro - Pitbull</item>
-        <item>Perro - Beagle</item>
-        <item>Perro - Shih Tzu</item>
-        <item>Gato - Gato Persa</item>
-        <item>Gato - Gato Maine Coon</item>
-        <item>Conejo - Holland Lop</item>
-        <item>Perro - Golden Retriever</item>
-    </string-array>
-
-    <string-array name="pets_description">
-        <item>Pepito es un perro juguetón que adora correr por el parque.</item>
-        <item>Rex es un Pastor Alemán muy leal, siempre vigilante y protector de su familia.</item>
-        <item>Luna es una gata traviesa que disfruta dormir en los lugares más soleados de la casa.</item>
-        <item>Simba es una tortuga tranquila y sabia, siempre moviéndose con calma</item>
-        <item>Chloe es una Bulldog Francés simpática y tranquila</item>
-        <item>Rocky es un Pitbull lleno de energía, conocido por su valentía y su corazón tierno.</item>
-        <item>Max es un Beagle curioso y siempre está listo para una aventura al aire libre.</item>
-        <item>Daisy es una Shih Tzu dulce y pequeña, ideal para abrazos y caricias.</item>
-        <item>Oscar es un Gato Persa con un pelaje largo y suave, siempre con una mirada elegante.</item>
-        <item>Oliver es un Gato Maine Coon muy grande y amigable, le encanta jugar con los niños.</item>
-        <item>Zoe es una coneja activa que disfruta de correr por el jardín y masticar zanahorias.</item>
-        <item>Charlie es un Golden Retriever amoroso que adora nadar en el agua y jugar con su pelota.</item>
+    <string-array name="url_country_flag">
+        <item>https://flagpedia.net/data/flags/h80/br.png</item>
+        <item>https://flagpedia.net/data/flags/h80/cn.png</item>
+        <item>https://flagpedia.net/data/flags/h80/fr.png</item>
+        <item>https://flagpedia.net/data/flags/h80/ar.png</item>
+        <item>https://flagpedia.net/data/flags/h80/co.png</item>
+        <item>https://flagpedia.net/data/flags/h80/pe.png</item>
+        <item>https://flagpedia.net/data/flags/h80/py.png</item>
+        <item>https://flagpedia.net/data/flags/h80/lt.png</item>
+        <item>https://flagpedia.net/data/flags/h80/be.png</item>
+        <item>https://flagpedia.net/data/flags/h80/ru.png</item>
+        <item>https://flagpedia.net/data/flags/h80/fi.png</item>
+        <item>https://flagpedia.net/data/flags/h80/jp.png</item>
+        <item>https://flagpedia.net/data/flags/h80/bg.png</item>
+        <item>https://flagpedia.net/data/flags/h80/au.png</item>
+        <item>https://flagpedia.net/data/flags/h80/id.png</item>
     </string-array>
 </resources>

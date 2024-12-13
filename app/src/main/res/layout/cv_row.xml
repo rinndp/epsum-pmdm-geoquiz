@@ -25,13 +25,13 @@
             android:orientation="horizontal">
 
             <ImageView
-                android:id="@+id/imageView"
+                android:id="@+id/imageViewFlag"
                 android:layout_width="109dp"
                 android:layout_height="80dp"
                 android:layout_gravity="center"
                 android:layout_margin="10dp"
                 android:layout_weight="1"
-                android:src="@drawable/baseline_pets_24" />
+                android:src="@drawable/baseline_flag_24" />
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -48,32 +48,32 @@
                     android:orientation="horizontal">
 
                     <TextView
-                        android:id="@+id/petsName"
+                        android:id="@+id/TVcountryName"
                         android:layout_width="292dp"
                         android:layout_height="match_parent"
                         android:layout_margin="5dp"
                         android:layout_weight="1"
                         android:textSize="17sp"
                         android:textStyle="bold"
-                        android:text="Nombre mascota" />
+                        android:text="Nombre país" />
 
                     <TextView
-                        android:id="@+id/petsBreed"
+                        android:id="@+id/TVguess"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:layout_margin="5dp"
                         android:layout_weight="1"
-                        android:text="Raza mascota"
+                        android:text="Adivina la capital"
                         android:textAlignment="textEnd" />
 
                 </LinearLayout>
 
                 <TextView
-                    android:id="@+id/petsDescription"
+                    android:id="@+id/countryDescription"
                     android:layout_width="match_parent"
-                    android:layout_height="42dp"
+                    android:layout_height="85dp"
                     android:layout_margin="5dp"
-                    android:text="Descripción mascota" />
+                    android:text="Descripción país" />
 
             </LinearLayout>
         </LinearLayout>

@@ -1,4 +1,4 @@
-package com.rinndp.petsrecycler;
+package com.rinndp.countriescycler;
 
 import android.content.Context;
 
