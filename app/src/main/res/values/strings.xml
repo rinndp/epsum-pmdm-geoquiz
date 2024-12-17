@@ -34,6 +34,23 @@
         <item>Canberra</item>
         <item>Yakarta</item>
     </string-array>
+    <string-array name="country_capitals_unorganized">
+        <item>Moscú</item>
+        <item>París</item>
+        <item>Vilna (Vilnius)</item>
+        <item>Brasília</item>
+        <item>Beijing</item>
+        <item>Lima</item>
+        <item>Buenos Aires</item>
+        <item>Asunción</item>
+        <item>Canberra</item>
+        <item>Bruselas</item>
+        <item>Helsinki</item>
+        <item>Yakarta</item>
+        <item>Tokio</item>
+        <item>Bogotá</item>
+        <item>Sofía</item>
+    </string-array>
     <string-array name="country_description">
         <item>Un país vibrante en América del Sur, famoso por su carnaval, fútbol y la selva amazónica.</item>
         <item>Una nación de gran historia y cultura, conocida por su Gran Muralla, la Ciudad Prohibida y su impacto global.</item>
@@ -51,7 +68,6 @@
         <item>Una isla continente famosa por su fauna única, las playas y la Gran Barrera de Coral.</item>
         <item>Un archipiélago extenso con una gran diversidad cultural, sus templos, playas y volcanes activos.</item>
     </string-array>
-
     <string-array name="url_country_flag">
         <item>https://flagpedia.net/data/flags/h80/br.png</item>
         <item>https://flagpedia.net/data/flags/h80/cn.png</item>

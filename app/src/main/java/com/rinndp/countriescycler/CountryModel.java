@@ -7,10 +7,11 @@ public class CountryModel {
     public String countryCapital;
 
 
-    public CountryModel(String petName, String petDescription, String countryFlag) {
+    public CountryModel(String petName, String petDescription, String countryFlag, String countryCapital) {
         this.countryName = petName;
         this.countryDescription = petDescription;
         this.countryFlag = countryFlag;
+        this.countryCapital = countryCapital;
     }
 
     public String getPetName() {
@@ -23,5 +24,9 @@ public class CountryModel {
 
     public String getPetDescription() {
         return countryDescription;
+    }
+
+    public String getCountryCapital() {
+        return countryCapital;
     }
 }

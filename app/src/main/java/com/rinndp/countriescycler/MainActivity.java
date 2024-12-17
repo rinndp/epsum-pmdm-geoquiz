@@ -32,12 +32,14 @@ public class MainActivity extends AppCompatActivity {
         String [] countryNames = getResources().getStringArray(R.array.country_names);
         String [] countryFlags = getResources().getStringArray(R.array.url_country_flag);
         String [] countryDescrptions = getResources().getStringArray(R.array.country_description);
+        String [] countryCapitals = getResources().getStringArray(R.array.country_capitals);
 
         for (int i = 0; i < countryNames.length; i++) {
             countries.add(new CountryModel(
                     countryNames[i],
                     countryDescrptions[i],
-                    countryFlags[i]
+                    countryFlags[i],
+                    countryCapitals[i]
             ));
         }
     }
