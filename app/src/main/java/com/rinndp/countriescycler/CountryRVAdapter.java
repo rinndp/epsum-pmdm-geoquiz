@@ -13,7 +13,6 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.bumptech.glide.Glide;
-import com.bumptech.glide.load.engine.DiskCacheStrategy;
 import com.bumptech.glide.load.resource.drawable.DrawableTransitionOptions;
 import com.google.android.material.dialog.MaterialAlertDialogBuilder;
 
@@ -42,8 +41,8 @@ public class CountryRVAdapter extends RecyclerView.Adapter<CountryRVAdapter.MyVi
 
     @Override
     public void onBindViewHolder(@NonNull CountryRVAdapter.MyViewHolder holder, int position) {
-        String nameCountry = countries.get(position).getPetName();
-        String descriptionCountry = countries.get(position).getPetDescription();
+        String nameCountry = countries.get(position).getCountryName();
+        String descriptionCountry = countries.get(position).getCountryDescription();
         String flagCountry = countries.get(position).getCountryFlag();
         ImageView IVcountryFlag = view.findViewById(R.id.imageViewFlag);
 

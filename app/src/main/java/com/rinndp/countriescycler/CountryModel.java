@@ -14,7 +14,7 @@ public class CountryModel {
         this.countryCapital = countryCapital;
     }
 
-    public String getPetName() {
+    public String getCountryName() {
         return countryName;
     }
 
@@ -22,7 +22,7 @@ public class CountryModel {
         return countryFlag;
     }
 
-    public String getPetDescription() {
+    public String getCountryDescription() {
         return countryDescription;
     }
 
